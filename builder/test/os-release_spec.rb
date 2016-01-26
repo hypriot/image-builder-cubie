@@ -27,8 +27,8 @@ describe "Root filesystem" do
       expect(stdout).to contain('^HYPRIOT_OS="HypriotOS/armhf"$')
     end
 
-    it "is for device 'HYPRIOT_DEVICE=\"ODROID XU4\"'" do
-      expect(stdout).to contain('^HYPRIOT_DEVICE="ODROID XU4"$')
+    it "is for device 'HYPRIOT_DEVICE=\"cubie\"'" do
+      expect(stdout).to contain('^HYPRIOT_DEVICE="cubie"$')
     end
 
   end

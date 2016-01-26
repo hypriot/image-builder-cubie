@@ -9,7 +9,7 @@ fi
 ### setting up some important variables to control the build process
 
 # device specific settings
-IMAGE_NAME="sd-card-odroid-xu4.img"
+IMAGE_NAME="sd-card-cubie.img"
 IMAGE_ROOTFS_PATH="/image-rootfs.tar.gz"
 QEMU_ARCH="arm"
 

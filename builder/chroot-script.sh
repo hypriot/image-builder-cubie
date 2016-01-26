@@ -2,7 +2,7 @@
 set -x
 
 # device specific settings
-HYPRIOT_DEVICE="ODROID XU4"
+HYPRIOT_DEVICE="cubie"
 
 # set up /etc/resolv.conf
 echo "nameserver 8.8.8.8" > /etc/resolv.conf

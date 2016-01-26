@@ -2,7 +2,7 @@ require 'serverspec'
 set :backend, :exec
 
 describe "SD-Card Image" do
-  let(:image_path) { return '/sd-card-odroid-xu4.img' }
+  let(:image_path) { return '/sd-card-cubie.img' }
 
   it "exists" do
     image_file = file(image_path)
